@@ -229,10 +229,10 @@ export default function UserRoutes(){
 <div align="center">
     <h3> Sign In </h3>
     <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Sign%20In.jpg">
-    <hr width="25%">
+    <hr width="20%">
     <h3> Sign Up </h3>
     <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Sign%20Up.jpg">
-    <hr>
+    <hr width="20%">
 </div>
 
 [Ver vídeo do App funcionando!](https://youtube.com/shorts/dpOW0SbrpTA)
