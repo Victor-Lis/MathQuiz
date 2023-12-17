@@ -233,6 +233,9 @@ export default function UserRoutes(){
     <h3> Sign Up </h3>
     <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Sign%20Up.jpg">
     <hr width="30%">
+    <h3> Home - Fundamental I </h3>
+    <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Home%20(Fund%20I).jpg">
+    <hr width="30%">
 </div>
 
 [Ver vídeo do App funcionando!](https://youtube.com/shorts/dpOW0SbrpTA)
