@@ -258,7 +258,7 @@ export default function UserRoutes(){
     <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/User.jpg">
     <hr width="30%">  
     <h3> User - Changing Datas </h3>
-    <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/User.jpg">
+    <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Change%20Datas.jpg">
 </div>
 
 [Ver vídeo do App funcionando!](https://youtube.com/shorts/dpOW0SbrpTA)
