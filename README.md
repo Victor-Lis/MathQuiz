@@ -226,9 +226,7 @@ export default function UserRoutes(){
 ```
 # Resultado
 
-<div align="center">
-  [](https://github.com/Victor-Lis/MathQuiz/blob/master/images/Sign%20In.jpg)
-</div>
+![](https://github.com/Victor-Lis/MathQuiz/blob/master/images/Sign%20In.jpg)
 
 [Ver vídeo do App funcionando!](https://youtube.com/shorts/dpOW0SbrpTA)
 ## Autores
