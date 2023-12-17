@@ -226,8 +226,8 @@ export default function UserRoutes(){
 ```
 # Resultado
 
-<div align="center" width="20%">
-    <h3> Sign In </h3>
+<div align="center">
+    <h2> Sign In </h2>
     <img width="30%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Sign%20In.jpg">
 </div>
 
