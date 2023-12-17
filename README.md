@@ -226,17 +226,13 @@ export default function UserRoutes(){
 ```
 # Resultado
 
-<table>
-    <tbody>
-        <tr>
-            <h3> Sign In </h3>
-            <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Sign%20In.jpg">
-            <br>
-            <h3> Sign Up </h3>
-            <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Sign%20Up.jpg">
-        </tr>
-    </tbody>
-</table>
+<div scope="row">
+    <h3> Sign In </h3>
+    <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Sign%20In.jpg">
+    <br>
+    <h3> Sign Up </h3>
+    <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Sign%20Up.jpg">
+</div>
 
 [Ver vídeo do App funcionando!](https://youtube.com/shorts/dpOW0SbrpTA)
 ## Autores
