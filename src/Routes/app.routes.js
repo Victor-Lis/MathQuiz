@@ -2,7 +2,6 @@ import React from 'react'
 import Feather from 'react-native-vector-icons/Feather';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 
-// import Home from '../Pages/Home'
 import Home from '../Pages/Home2'
 import RankingRoutes from './ranking.routes';
 import UserRoutes from './user.routes';
