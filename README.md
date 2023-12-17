@@ -244,7 +244,10 @@ export default function UserRoutes(){
     <hr width="30%">
     <h3> Home - Ensino Superior </h3>
     <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Home%20(Ensino%20Superior).jpg">
-    <hr width="30%">    
+    <hr width="30%">   
+    <h3> Home - Game </h3>
+    <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Game.jpg">
+    <hr width="30%">      
 </div>
 
 [Ver vídeo do App funcionando!](https://youtube.com/shorts/dpOW0SbrpTA)
