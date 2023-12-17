@@ -239,9 +239,12 @@ export default function UserRoutes(){
     <h3> Home - Fundamental II </h3>
     <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Home%20(Fund%20II).jpg">
     <hr width="30%">
-    <h3> Home - Fundamental II </h3>
+    <h3> Home - Ensino Médio </h3>
     <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Home%20(Ensino%20Medio).jpg">
     <hr width="30%">
+    <h3> Home - Ensino Superior </h3>
+    <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Home%20(Ensino%20Superior).jpg">
+    <hr width="30%">    
 </div>
 
 [Ver vídeo do App funcionando!](https://youtube.com/shorts/dpOW0SbrpTA)
