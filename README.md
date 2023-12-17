@@ -248,6 +248,17 @@ export default function UserRoutes(){
     <h3> Home - Game </h3>
     <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Game.jpg">
     <hr width="30%">      
+    <h3> Rankings - 1 </h3>
+    <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Ranking.jpg">
+    <hr width="30%">  
+    <h3> Rankings - 2 </h3>
+    <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Ranking%202.jpg">
+    <hr width="30%">  
+    <h3> User </h3>
+    <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/User.jpg">
+    <hr width="30%">  
+    <h3> User - Changing Datas </h3>
+    <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/User.jpg">
 </div>
 
 [Ver vídeo do App funcionando!](https://youtube.com/shorts/dpOW0SbrpTA)
