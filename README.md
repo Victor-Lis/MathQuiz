@@ -229,7 +229,7 @@ export default function UserRoutes(){
 <div scope="row">
     <h3> Sign In </h3>
     <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Sign%20In.jpg">
-    <hr>
+    <hr width="20%">
     <h3> Sign Up </h3>
     <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Sign%20Up.jpg">
 </div>
