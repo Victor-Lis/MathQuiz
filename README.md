@@ -226,10 +226,10 @@ export default function UserRoutes(){
 ```
 # Resultado
 
-<div scope="row">
+<div align="center">
     <h3> Sign In </h3>
     <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Sign%20In.jpg">
-    <hr width="20%">
+    <hr width="15%">
     <h3> Sign Up </h3>
     <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Sign%20Up.jpg">
 </div>
