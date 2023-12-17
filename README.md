@@ -227,8 +227,9 @@ export default function UserRoutes(){
 # Resultado
 
 <div align="center">
-    <p style="font-size: 1.5rem; color: red"> Sign In </p>
+    <h3> Sign In </h3>
     <img width="30%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Sign%20In.jpg">
+    #
 </div>
 
 [Ver vídeo do App funcionando!](https://youtube.com/shorts/dpOW0SbrpTA)
