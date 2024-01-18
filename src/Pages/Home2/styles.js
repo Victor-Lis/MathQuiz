@@ -27,13 +27,13 @@ export const Guide = styled.View`
 
 export const GuideStrong = styled.Text`
 
-    /* width: ${props => props.width? props.width : "0"}; */
-    padding: ${props => props.padding? props.padding : "0"};
-    margin: ${props => props.margin? props.margin : "0"};
-    font-size: ${props => props.size? props.size+"px" : "15px"};
-    color: ${props => props.color? props.color : "#fff"};
+    /* width: ${props => props.width ? props.width : "0"}; */
+    padding: ${props => props.padding ? props.padding : "0"};
+    margin: ${props => props.margin ? props.margin : "0"};
+    font-size: ${props => props.size ? props.size + "px" : "15px"};
+    color: ${props => props.color ? props.color : "#fff"};
     font-weight: bold;
-    text-transform: ${props => props.transform? props.transform : "uppercase"};
+    text-transform: ${props => props.transform ? props.transform : "uppercase"};
 
 `
 
@@ -59,6 +59,7 @@ export const PlayBox = styled.View`
 
     flex: 1;
     padding: 50px 0;
+    align-items: center;
     justify-content: center;
 
 `
@@ -72,13 +73,32 @@ export const ButtonPlay = styled.TouchableOpacity`
     background-color: rgb(0,200,0);
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+
+`
+
+export const ButtonPlayWithFriends = styled.TouchableOpacity`
+
+    border-radius: 5px;
+    
+    /* background-color: rgb(0,200,0); */
+    justify-content: center;
+    align-items: center;
 
 `
 
 export const ButtonPlayText = styled.Text`
 
     font-size: 22.5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+
+`
+
+export const ButtonPlayWithFriendsText = styled.Text`
+
+    font-size: 17.5px;
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
