@@ -260,9 +260,10 @@ export default function UserRoutes(){
     <h3> User - Changing Datas </h3>
     <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Change%20Datas.jpg">
     <hr width="30%">
-    <h3> Vídeo do projeto </h3>
-    (https://youtube.com/shorts/dpOW0SbrpTA)
 </div>
+
+## Vídeo do projeto
+![Veja um vídeo curto demonstrando o App!](https://youtube.com/shorts/dpOW0SbrpTA)
 
 ## Autores
 
