@@ -263,7 +263,7 @@ export default function UserRoutes(){
 </div>
 
 ## Vídeo do projeto
-![Veja um vídeo curto demonstrando o App!](https://youtube.com/shorts/dpOW0SbrpTA)
+[Veja um vídeo curto demonstrando o App!](https://youtube.com/shorts/dpOW0SbrpTA)
 
 ## Autores
 
