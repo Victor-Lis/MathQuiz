@@ -23,6 +23,13 @@ Já havia usado muitos dos elementos desse projeto, como:
 - StackNavigation
 
 Enfim, mas o grande detalhe é: Eu nunca havia usado todos esses e muito mais juntos, em um projeto grande, essa foi a primeira vez, então foi bem desafiador.
+
+## Techs
+<div align="center">
+  <img width="40" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="ReactJS">
+  <img width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-original-wordmark.svg" alt="Firebase">
+</div>
+
 ## Aprendizados
 
 Por final aprendi algumas coisas interessantes como: 
