@@ -3,7 +3,6 @@
 Um jogo educacional desafiador de matemática que torna o aprendizado divertido! Desenvolvido com tecnologias modernas como React Native e Expo, inspirado no clássico jogo "Stop".
 
 <br>
-<br>
 
 ## ✨ Destaques
 
@@ -15,10 +14,11 @@ Um jogo educacional desafiador de matemática que torna o aprendizado divertido!
 - 🤝 Modo multiplayer
 
 <br>
-<br>
 
 ## 🎯 Sobre o Projeto
 Enfim, mas o grande detalhe é: Eu nunca havia usado todos esses e muito mais juntos, em um projeto grande, essa foi a primeira vez, então foi bem desafiador.
+
+<br>
 
 ## Techs
 <div align="center">
@@ -45,7 +45,6 @@ Enfim, mas o grande detalhe é: Eu nunca havia usado todos esses e muito mais ju
 - 👥 Modo multiplayer
 
 <br>
-<br>
 
 ## 🛠️ Stack Tecnológica
 
@@ -54,32 +53,23 @@ Enfim, mas o grande detalhe é: Eu nunca havia usado todos esses e muito mais ju
 - 🚀 Expo
 - 🔥 Firebase
 
-<br>
-
 ### UI/UX
 - 💅 Styled Components
 - 🎨 React Native Vector Icons
 - 🌙 Tema dark consistente
-
-<br>
 
 ### Dados
 - 💾 AsyncStorage
 - 🖼️ Firebase Storage
 - 🔄 Realtime Database
 
-<br>
-
 ### Navegação
 - 🧭 React Navigation v6
-
-<br>
 
 ### Estado
 - 🔄 Context API
 - ⚡ React Hooks
 
-<br>
 <br>
 
 ## 📱 Screenshots
@@ -93,7 +83,6 @@ Enfim, mas o grande detalhe é: Eu nunca havia usado todos esses e muito mais ju
 
 🎥 [Ver o app em ação!](https://youtube.com/shorts/dpOW0SbrpTA)
 
-<br>
 <br>
 
 ## 🚀 Como Começar
@@ -117,7 +106,6 @@ npm install
 expo start
 ```
 
-<br>
 <br>
 
 ## ⭐ Se gostou, deixe uma estrela no projeto!
