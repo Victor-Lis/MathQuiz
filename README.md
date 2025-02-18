@@ -81,7 +81,9 @@ Enfim, mas o grande detalhe é: Eu nunca havia usado todos esses e muito mais ju
     <img width="20%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Home%20(Fund%20II).jpg">
 </div>
 
+<div align="center">
 🎥 [Ver o app em ação!](https://youtube.com/shorts/dpOW0SbrpTA)
+</div>
 
 <br>
 
@@ -117,4 +119,7 @@ expo start
 
 ## 👨‍💻 Autor
 
-<img src="https://github.com/Victor-Lis.png" width="100px" />
+| <img src="https://github.com/Victor-Lis.png" width="100" style="border-radius:50%"/> |
+| --- |
+| Victor Lis |
+| Desenvolvedor |
