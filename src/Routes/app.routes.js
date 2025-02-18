@@ -3,6 +3,7 @@ import Feather from 'react-native-vector-icons/Feather';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 
 import Home from '../Pages/Home2'
+import GameRoutes from './game.routes'
 import RankingRoutes from './ranking.routes';
 import UserRoutes from './user.routes';
 
@@ -16,7 +17,7 @@ export default function AuthRoutes() {
 
             <AppTabs.Screen
                 name='Home'
-                component={Home}
+                component={GameRoutes}
                 options={{
 
                     tabBarIcon: ({ color, size }) => {
