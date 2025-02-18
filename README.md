@@ -18,8 +18,13 @@ Um jogo educacional desafiador de matemática que torna o aprendizado divertido!
 <br>
 
 ## 🎯 Sobre o Projeto
+Enfim, mas o grande detalhe é: Eu nunca havia usado todos esses e muito mais juntos, em um projeto grande, essa foi a primeira vez, então foi bem desafiador.
 
-Transformamos um conceito simples em uma experiência educacional envolvente. Os jogadores são desafiados com operações matemáticas adaptadas ao seu nível escolar, tornando o aprendizado divertido e competitivo.
+## Techs
+<div align="center">
+  <img width="40" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="ReactJS">
+  <img width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-original-wordmark.svg" alt="Firebase">
+</div>
 
 <br>
 <br>
@@ -125,5 +130,3 @@ expo start
 ## 👨‍💻 Autor
 
 <img src="https://github.com/Victor-Lis.png" width="100px" />
-
-[@Victor-Lis](https://github.com/Victor-Lis)
