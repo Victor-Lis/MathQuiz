@@ -82,7 +82,7 @@ Enfim, mas o grande detalhe é: Eu nunca havia usado todos esses e muito mais ju
 </div>
 
 <div align="center">
-🎥 [Ver o app em ação!](https://youtube.com/shorts/dpOW0SbrpTA)
+  <a href="https://youtube.com/shorts/dpOW0SbrpTA">🎥 Ver o app em ação!</a>
 </div>
 
 <br>
