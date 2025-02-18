@@ -1,247 +1,129 @@
+# Math Quiz (Stop Matemático) 🧮
 
-# Math Quiz (Stop Matemático)
+Um jogo educacional desafiador de matemática que torna o aprendizado divertido! Desenvolvido com tecnologias modernas como React Native e Expo, inspirado no clássico jogo "Stop".
 
-Esse foi um projeto que tive muita dedicação e carinho no processo de criação. 
+<br>
+<br>
 
-A ideia começou de um professor meu, baseado como o próprio nome sugere, em uma espécie de parente do jogo "Stop", mas ao invés de coisas no geral, focado em matemática, no caso com operações e números sorteados.
+## ✨ Destaques
 
-Achei a ideia muito boa, mas acreditei que a proposta do professor era muito simples, então adicionei algumas coisas que acreditei que cabiam no projeto, como: 
-- Login e definição de usuários;
-- Foto de perfil dos usuários, para gerar identificação maior com o App e mais fácil;
-- Alteração dos dados do usuário;
-- Níveis de dificuldade (baseado na escolaridade);
-- Timer dinâmico durante a partida, para gerar mais adrenalina;
-- Resultado instantâneo logo após a resposta.
-- Gravação no Firebase da melhor partida (separada por dificuldade);
-- Para gerar mais motivação nos usuários adicionei sistema de ranking, com base nos acertos e no tempo.
-## Desafios
+- 🎮 Interface intuitiva e amigável
+- 🏆 Sistema de ranking competitivo
+- 📱 Design responsivo e moderno
+- 🌙 Tema dark elegante
+- 🎯 Feedback instantâneo
+- 🤝 Modo multiplayer
 
-Já havia usado muitos dos elementos desse projeto, como:
-- useContext()
-- FirebaseAuth
-- Firebase RealtimeDB
-- StackNavigation
+<br>
+<br>
 
-Enfim, mas o grande detalhe é: Eu nunca havia usado todos esses e muito mais juntos, em um projeto grande, essa foi a primeira vez, então foi bem desafiador.
-## Aprendizados
+## 🎯 Sobre o Projeto
 
-Por final aprendi algumas coisas interessantes como: 
-- Renderização condicional das rotas, com base no login(ou não) do usuário;
-- Criação de um useContext();
-- Mais de um sistema de navegações no mesmo App.
-### Renderização dinâmica das rotas, com base no login
-```js
-export default function Routes(){
+Transformamos um conceito simples em uma experiência educacional envolvente. Os jogadores são desafiados com operações matemáticas adaptadas ao seu nível escolar, tornando o aprendizado divertido e competitivo.
 
-    const { signed, loading } = useContext(AuthContext)
-    
-    if(loading){
+<br>
+<br>
 
-        return(
+### 🔥 Funcionalidades Principais
 
-            <View
+- 🔐 Sistema completo de autenticação
+- 📸 Perfil personalizável com foto
+- 📚 Níveis progressivos de dificuldade:
+  - 🟢 Fundamental I
+  - 🟡 Fundamental II 
+  - 🟠 Ensino Médio/Técnico
+  - 🔴 Ensino Superior
+- ⏱️ Timer dinâmico
+- ✅ Feedback em tempo real
+- 🏅 Ranking global
+- 📊 Recordes pessoais
+- 👥 Modo multiplayer
 
-                style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: "#202020"}}
+<br>
+<br>
 
-            >
+## 🛠️ Stack Tecnológica
 
-                <ActivityIndicator size={'large'} color={"#F0F4FF"}/>
+### Core
+- ⚛️ React Native
+- 🚀 Expo
+- 🔥 Firebase
 
-            </View>
+<br>
 
-        )
+### UI/UX
+- 💅 Styled Components
+- 🎨 React Native Vector Icons
+- 🌙 Tema dark consistente
 
-    }
+<br>
 
-    return(
+### Dados
+- 💾 AsyncStorage
+- 🖼️ Firebase Storage
+- 🔄 Realtime Database
 
-        signed? <AppRoutes/> : <AuthRoutes/>
+<br>
 
-    )
+### Navegação
+- 🧭 React Navigation v6
 
-}
-```
+<br>
 
-### useContext passando os valores de auth
-Abaixo vou colocar uma versão resumida de como funciona o useContext...
-```js
-import React, { useContext } from 'react'
+### Estado
+- 🔄 Context API
+- ⚡ React Hooks
 
-export const AuthContext = createContext({})
+<br>
+<br>
 
-export default function AuthProvider({ children }) {
-
-    return (
-
-        <AuthContext.Provider value={{}}>
-
-            {children}
-
-        </AuthContext.Provider>
-
-    )
-
-
-}
-```
-
-## Navegações
-
-#### 1- No signed
-```js
-import React from 'react'
-import { createNativeStackNavigator } from '@react-navigation/native-stack'
-
-import SignIn from '../Pages/SignIn'
-import SignUp from '../Pages/SignUp'
-
-const AuthStack = createNativeStackNavigator()
-
-export default function AuthRoutes(){
-
-    return(
-
-        <AuthStack.Navigator>
-
-            <AuthStack.Screen
-                name='SignIn'
-                component={SignIn}
-            />
-
-            <AuthStack.Screen
-                name='SignUp'
-                component={SignUp}
-            />          
-
-        </AuthStack.Navigator>
-
-    )
-
-}
-```
-
-#### 2- App Navigation (signed)
-```js
-import React from 'react'
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
-
-import Home from '../Pages/Home2'
-import RankingRoutes from './ranking.routes';
-import UserRoutes from './user.routes';
-
-const AppTabs = createBottomTabNavigator()
-
-export default function AuthRoutes() {
-
-    return (
-
-        <AppTabs.Navigator>
-
-            <AppTabs.Screen
-                name='Home'
-                component={Home}
-            />
-
-            <AppTabs.Screen
-                name='RankTab'
-                component={RankingRoutes}
-            />
-
-            <AppTabs.Screen
-                name='UserTab'
-                component={UserRoutes}
-            />
-
-        </AppTabs.Navigator>
-
-    )
-
-}
-```
-
-#### 3- Ranking Navigation
-```js
-import React from 'react'
-import { createNativeStackNavigator } from '@react-navigation/native-stack'
-
-import Ranking from '../Pages/Ranking'
-import RankingList from '../Pages/Ranking/RankingList'
-
-const RankingStack = createNativeStackNavigator()
-
-export default function RankingRoutes(){
-
-    return(
-
-        <RankingStack.Navigator>
-
-            <RankingStack.Screen
-                name='RankingHome'
-                component={Ranking}
-            />
-
-            <RankingStack.Screen
-                name='RankingList'
-                component={RankingList}
-            />          
-
-        </RankingStack.Navigator>
-
-    )
-
-}
-```
-
-#### 4- User Navigation
-```js
-import React from 'react'
-import { createNativeStackNavigator } from '@react-navigation/native-stack'
-
-import User from '../Pages/User'
-import EditUser from '../Pages/EditUser'
-
-const UserStack = createNativeStackNavigator()
-
-export default function UserRoutes(){
-
-    return(
-
-        <UserStack.Navigator>
-
-            <UserStack.Screen
-                name='User'
-                component={User}
-            />
-
-            <UserStack.Screen
-                name='EditUser'
-                component={EditUser}
-            />          
-
-        </UserStack.Navigator>
-
-    )
-
-}
-```
-# Resultado
+## 📱 Screenshots
 
 <div align="center">
-    <h3> Sign In </h3>
-    <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Sign%20In.jpg">
-    <hr width="30%">
-    <h3> Sign Up </h3>
-    <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Sign%20Up.jpg">
-    <hr width="30%">
-    <h3> Home - Fundamental I </h3>
-    <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Home%20(Fund%20I).jpg">
-    <hr width="30%">
-    <h3> Home - Fundamental II </h3>
-    <img width="15%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Home%20(Fund%20II).jpg">
-    <hr width="30%">
+    <img width="20%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Sign%20In.jpg">
+    <img width="20%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Sign%20Up.jpg">
+    <img width="20%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Home%20(Fund%20I).jpg">
+    <img width="20%" src="https://github.com/Victor-Lis/MathQuiz/blob/master/images/Home%20(Fund%20II).jpg">
 </div>
 
-[Ver vídeo do App funcionando!](https://youtube.com/shorts/dpOW0SbrpTA)
-## Autores
+🎥 [Ver o app em ação!](https://youtube.com/shorts/dpOW0SbrpTA)
 
-- [@Victor-Lis](https://github.com/Victor-Lis)
+<br>
+<br>
+
+## 🚀 Como Começar
+
+1. Clone o repositório
+```bash
+git clone https://github.com/seu-usuario/math-quiz.git
+```
+
+2. Instale as dependências
+```bash
+npm install
+```
+
+3. Configure o Firebase
+- Crie um projeto no Firebase Console
+- Adicione as credenciais em firebaseConfig.js
+
+4. Inicie o app
+```bash
+expo start
+```
+
+<br>
+<br>
+
+## ⭐ Se gostou, deixe uma estrela no projeto!
+
+📝 [Reporte bugs ou sugira features](https://github.com/Victor-Lis/issues)
+
+<br>
+<br>
+
+## 👨‍💻 Autor
+
+<img src="https://github.com/Victor-Lis.png" width="100px" />
+
+[@Victor-Lis](https://github.com/Victor-Lis)
